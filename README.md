@@ -5,7 +5,7 @@ Multivariate time series classification (MTSC) is a significant research topic i
 
 
 ## Architecture
-![模型架构图]<img src="model/model.png" width="600/>
+![模型架构图](model/model.png)
 
 
 <!--## 📑 Citation
