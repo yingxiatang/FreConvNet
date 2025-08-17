@@ -7,7 +7,7 @@ parser = argparse.ArgumentParser()
 # dataset and dataloader args
 parser.add_argument('--save_path', type=str, default='FreConvNet/test')
 parser.add_argument('--data_path', type=str,
-                    default='D:/project/pycharm professional/FreconvNet/data_provider/')
+                    default='/data_provider/')
 parser.add_argument('--dataset_name', type=str, default='Basicmotions')
 parser.add_argument('--device', type=str, default='cuda:0')#cuda:0
 parser.add_argument('--train_batch_size', type=int, default=64)
@@ -31,8 +31,8 @@ parser.add_argument('--lr', type=float, default=0.015)
 parser.add_argument('--lr_decay_rate', type=float, default=1.)
 parser.add_argument('--lr_decay_steps', type=int, default=100)
 parser.add_argument('--weight_decay', type=float, default=0.1)
-parser.add_argument('--num_epoch', type=int, default=1)
-parser.add_argument('--train_optim', type=str, default='Adam',choices={'AdamW', 'Adam', 'RAdam'})
+parser.add_argument('--num_epoch', type=int, default=50)
+parser.add_argument('--train_optim', type=str, default='AdamW',choices={'AdamW', 'Adam', 'RAdam'})
 
 #multi task
 parser.add_argument('--task_name', type=str, default='classification',
