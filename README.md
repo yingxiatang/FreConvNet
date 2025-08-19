@@ -9,8 +9,20 @@ Multivariate time series classification (MTSC) is a significant research topic i
 ![模型架构图](model/model.png)
 
 
-<!--## 📑 Citation
-if you find this repo useful, please cite our paper.-->
+## 📑 Citation
+if you find this repo useful, please cite our paper.
+
+```bibtex
+@article{10.1145/3761818,
+author = {Tang, Yingxia and Wei, Yanxuan and Hu, Yupeng and Zheng, Xiangwei and Ji, Cun},
+title = {Convolutional Network Integrated with Frequency Adaptive Learning for Multivariate Time Series Classification},
+year = {2025},
+publisher = {Association for Computing Machinery},
+issn = {1556-4681},
+doi = {10.1145/3761818},
+journal = {ACM Trans. Knowl. Discov. Data}
+}
+}
 
 ## 🙏 Acknowledgements
 We appreciate the following github repos a lot for their valuable code base or datasets:
