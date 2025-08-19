@@ -10,7 +10,7 @@ Multivariate time series classification (MTSC) is a significant research topic i
 
 
 ## 📑 Citation
-if you find this repo useful, please cite our paper.
+if you find this repo useful, please cite our paper:
 
 ```bibtex
 @article{10.1145/3761818,
