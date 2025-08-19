@@ -22,7 +22,8 @@ issn = {1556-4681},
 doi = {10.1145/3761818},
 journal = {ACM Trans. Knowl. Discov. Data}
 }
-}
+```
+
 
 ## 🙏 Acknowledgements
 We appreciate the following github repos a lot for their valuable code base or datasets:
